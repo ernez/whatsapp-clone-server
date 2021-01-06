@@ -28,7 +28,7 @@ curl \
   --data '{ "query": "{ chats { id name picture lastMessage { id content createdAt } } }" }' \
   localhost:4000/graphql
 
-Query za playground:
+Query za playground (http://localhost:4000/graphql):
 
 {
   chats {
